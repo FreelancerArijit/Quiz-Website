@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple qiuz website using html css javascript</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="mobile.css">
+
+</head>
+<body>
+    
+
+<div class="startGame">
+    <h2 class="m-bottom">PLAY YOUR QUIZ GAME NOW</h2>
+
+    <button id="BTN1" onClick="start()"> START GAME</button>
+    <button id="BTN2">QUIT GAME</button>
+    </div>
+    <div id="maincontainer" class="showscreen">
+        <div class="wrap">
+        <div class="subcontainer">
+            <h2 class="question">Your question is</h2>
+
+            <ul>
+                <li>
+                    <input type="radio" name="question" class="answer" id="ans1">
+                    <label class="one" id="opt1">This is your question</label>
+                </li>
+                <li>
+                    <input type="radio" name="question" class="answer" id="ans2">
+                    <label class="one"  id="opt2">This is your question</label>
+                </li>
+                <li>
+                    <input type="radio" name="question" class="answer" id="ans3">
+                    <label class="one"  id="opt3">This is your question</label>
+                </li>
+                <li>
+                    <input type="radio" name="question" class="answer" id="ans4">
+                    <label class="one"  id="opt4">This is your question</label>
+                </li>
+
+            </ul>
+            <button class="submit"> SUBMIT</button>
+            <button class="skip"> SKIP</button>
+
+
+            <div id="showScore" class="ScoreArea">
+               
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+   <script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+@media screen and (max-width: 900px){
+    
+
+.subcontainer{
+    width:76vw;
+    /* background-color:rgb(235, 220, 88); */
+    
+}
+.question{
+    font-size:1.4rem;
+    text-align:center;
+}
+.one{
+    font-size:1.2rem;
+}
+li{
+    margin-top: 15px;
+}
+.m-bottom{
+    font-size:1.5rem;
+}
+
+.submit{
+    padding:5px 9px;
+    margin-top:40px;
+}
+
+}
